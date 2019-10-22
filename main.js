@@ -55,7 +55,7 @@ function crazyCase2ReturnOfCrazyCase(str) {
 
   for (let i = 0; i < str.length; i++){
     if (count % 2 === 0) {
-      newStr = newStr + str[i].toLowerCase();
+      newStr = newStr + str[i];
     } else {
       newStr = newStr + str[i].toUpperCase();
     }
@@ -98,7 +98,7 @@ function crazyCase3SonOfCrazyCase(str) {
 
   for (let i = 0; i < str.length; i++){
     if (count % 2 === 0) {
-      newStr = newStr + str[i].toLowerCase();
+      newStr = newStr + str[i];
     } else {
       newStr = newStr + str[i].toUpperCase();
     }
